@@ -7,9 +7,6 @@ public class task_a {
 
         String colourEnd = "\033[0m";
 
-        
-        
-        //System.out.printf("[%10s%-9s]/n", "5","0%");
 
         System.out.printf("%1$s[%2$10s%3$s%4$-9s]%5$s\n",colour1,"5",colour2,"0%",colourEnd);
 
