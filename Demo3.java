@@ -9,7 +9,7 @@ public class Demo3 {
 
         System.out.printf("(\033[33m%s\033[0m) %s-%s\n", num1,num2,num3); // colour the area code
 
-        System.out.printf("(\033[33;7m%s\033[0m) %s-%s\n", num1,num2,num3); // colour the area code
+        System.out.printf("(\033[33;7m%s\033[0m) %s-%s\n", num1,num2,num3); // if we need to highlight the colour code
 
 
 
