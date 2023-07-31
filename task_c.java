@@ -15,15 +15,12 @@ public class task_c {
 
         String colouryellow = "\033[33m";
         String colourPourple = "\033[35m";
-        String colourGreen = "\033[35m";
+        String colourGreen = "\033[32m";
 
 
         String resetColour = "\033[0m";
 
         String newYork = colourGreen +"New"+ resetColour +" York" ;
-
-
-        System.out.println(newYork);
 
 
 
@@ -37,12 +34,6 @@ public class task_c {
         System.out.printf("%5$s|%4$s %1$-14s%5$s|%4$s %2$-10s %5$s|%4$s %6$s%3$,-13d%4$s%5$s|%4$s\n",city1, state1,population1, resetColour,colouryellow, colourPourple);
         System.out.printf("%4$s|%3$s %1$-23s%4$s|%3$s %1$-20s%4$s|%3$s %5$s%2$,-13d%4$s%4$s|%3$s\n",newYork,population2, resetColour,colouryellow, colourPourple);
         System.out.printf("%2$s%1$s%3$s\n",line1,colouryellow,resetColour);
-
-
-       // System.out.printf("%2$s%1$s%3$s\n",line1,colouryellow,resetColour);
-       // System.out.printf("%4$s|%3$s %-14s%4$s|%3$s%2$4s %4$s|%3$s\n",name1, age1,resetColour,colouryellow);
-       // System.out.printf("%4$s|%3$s %-14s%4$s|%3$s%2$4s %4$s|%3$s\n",name2, age2,resetColour,colouryellow);
-       // System.out.printf("%2$s%1$s%3$s\n",line1,colouryellow,resetColour);
 
 
 

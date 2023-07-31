@@ -28,10 +28,7 @@ public class task_b {
         System.out.printf("%2$s%1$s%3$s\n",line1,colouryellow,resetColour);
 
 
-        
-        
-        
-        //System.out.printf();
+    
     }
     
 }
